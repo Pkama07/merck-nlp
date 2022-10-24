@@ -1,0 +1,83 @@
+Node,Property,Value
+Compound,MK_number,MK_0001
+Compound,L_number,L-000000001
+BP,BP_number,BP-0001
+BP,Lead_analyst,Jieutonne Archer 
+BP,Method_developer,James Marr 
+BP,PI,Tonya Jackson 
+BP,Matrix,plasma
+Instrumentation,BP_number,BP-0001
+Instrumentation,Instrumentation_table,
+GeneralSupplies,BP_number,BP-0001
+GeneralSupplies,General_supplies_table,
+EquipmentSupplies,BP_number,BP-0001
+EquipmentSupplies,Equipment_supplies_table,
+PipettesSupplies,BP_number,BP-0001
+PipettesSupplies,Pipettes_supplies_table,
+AutomationSupplies,BP_number,BP-0001
+AutomationSupplies,Automation_supplies_table,
+ReferenceStandards,BP_number,BP-0001
+ReferenceStandards,Reference_standards_table,
+StandardPreparation,BP_number,BP-0001
+StandardPreparation,Diluent,ACN/H2O [50/50]
+StandardPreparation,Storage_temp,4°C
+StandardPreparation,Solvent,DMSO 
+StandardPreparation,Density,1.00 mg/mL
+StandardPreparation,Standard_spike_volume,20 µL
+StandardPreparation,Standard_matrix_volume,180 µL
+QCPreparation,BP_number,BP-0001
+QCPreparation,Storage_details,Mix well. Store refrigerated (+4ºC).
+QCPreparation,Solvent,DMSO 
+QCPreparation,Diluent,ACN/H2O [50/50]
+QCPreparation,Stock_volume,1.00 mg/mL
+ISPreparation,BP_number,BP-0001
+ISPreparation,Solvent,DMSO 
+ISPreparation,Stock_density,1.00 mg/mL
+ISPreparation,Storage_temp,4ºC
+ISPreparation,Working_density,10.0 ng/mL
+ISPreparation,IS_volume,50.0 µL
+ISPreparation,Diluent,ACN/H2O [50/50]
+ISPreparation,Diluent_volume,49.95 mL
+Chromatography,BP_number,BP-0001
+Chromatography,Method ,reversed phase chromatography
+Chromatography,Internal_standard,SIL-MK-0001
+ExtractionMethod,BP_number,BP-0001
+ExtractionMethod,Name,protein precipitation extraction
+ExtractionMethod,Species,rat
+ExtractionMethod,Matrix,plasma
+ExtractionMethod,Matrix_sample_quantity,20
+Procedure,BP_number,BP-0001
+Procedure,Blank_matrix_steps,"Thaw, vortex and centrifuge for 5 minutes at approximately 2800 rpm "
+Procedure,Biological_matrix_steps,"Allow samples to thaw completely 
+Vortex samples for 5 minutes at 1200 rpm 
+Centrifuge at approximately 1200 RPM for 1 minute at ambient temperature."
+Procedure,Sample_preparation_table,
+Procedure,Vortex_time,120 seconds
+Procedure,Vortex_RPM,1100 rpm
+OperatingParameters,BP_number,BP-0001
+OperatingParameters,UPLC_parameters_table,
+OperatingParameters,UPLC_table,
+OperatingParameters,Wash_table,
+OperatingParameters,MS_paramters_table,
+OperatingParameters,Ions_table,
+SystemSuitability,BP_number,BP-0001
+SystemSuitability,Valid_observations,"signal : noise ratio ≥20:1, peak height"
+SystemSuitability,Stability_assessment_density,2.00 ng/mL
+SystemSuitability,Analysis_table,
+MassSpectrometer,BP_number,BP-0001
+MassSpectrometer,Interface,turbo ionspray (TIS)
+MassSpectrometer,Ion mode,positive
+MassSpectrometer,Compound_MRM,457.1 -> 191.0
+MassSpectrometer,Internal_standard_MRM,462.1 -> 191.0
+Anticoagulant,BP_number,BP-0001
+Anticoagulant,Name,EDTA 
+Anticoagulant,Storage_temp,-70°C
+BiologicalMatrices,BP_number,BP-0001
+BiologicalMatrices,Biological_matrices_table,
+MatrixQCs,BP_number,BP-0001
+MatrixQCs,Preparation_instructions,Cap the tube and briefly vortex.
+MatrixQCs,Aliquot_volume,0.150 mL
+LLOQ,BP_number,BP-0001
+LLOQ,LLOQ,0.200 ng/mL
+LLOQ,Regression_model,linear
+LLOQ,Calibration_range,0.200 to 200
